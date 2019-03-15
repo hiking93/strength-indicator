@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#006aa6</color>
+	<color name="colorPrimaryDark">#005788</color>
+	<color name="colorAccent">#007dc3</color>
+
+	<color name="strength_very_weak">#b71c1c</color>
+	<color name="strength_weak">#e57373</color>
+	<color name="strength_medium">#ffa000</color>
+	<color name="strength_strong">#8bc34a</color>
+	<color name="strength_very_strong">#43a047</color>
+	<color name="strength_inactive">#e0e0e0</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">Strength Indicator</string>
+	<string name="switch_button">Switch</string>
+	<string name="strength_format">Password strength: %s</string>
+	<string name="strength_very_weak">Very weak</string>
+	<string name="strength_weak">Weak</string>
+	<string name="strength_medium">Medium</string>
+	<string name="strength_strong">Strong</string>
+	<string name="strength_very_strong">Very strong</string>
+</resources>

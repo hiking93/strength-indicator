@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">強度指示</string>
+	<string name="switch_button">切換</string>
+	<string name="strength_format">密碼強度：%s</string>
+	<string name="strength_very_weak">很弱</string>
+	<string name="strength_weak">弱</string>
+	<string name="strength_medium">普通</string>
+	<string name="strength_strong">強</string>
+	<string name="strength_very_strong">很強</string>
+</resources>
