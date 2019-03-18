@@ -26,14 +26,41 @@ class StrengthIndicatorView @JvmOverloads constructor(
     var stateIndex = 0
         set(value) {
             field = value
-            invalidate()
+            requestLayout()
         }
 
     var barHeight = 4f * density
+        set(value) {
+            field = value
+            requestLayout()
+        }
+
     var barGap = 8f * density
+        set(value) {
+            field = value
+            requestLayout()
+        }
+
     var inactiveBarColor = 0xffe2e7ea.toInt()
+        set(value) {
+            field = value
+            invalidate()
+        }
+
     var textToBarGap = 8f * density
+        set(value) {
+            field = value
+            requestLayout()
+            requestLayout()
+        }
+
     var textSize = resources.getDimension(R.dimen.text_caption)
+        set(value) {
+            field = value
+            requestLayout()
+            textPaint.textSize = value
+            requestLayout()
+        }
 
     val states = listOf(
             State(getFormattedStrengthText(R.string.strength_very_weak),

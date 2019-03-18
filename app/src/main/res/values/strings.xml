@@ -7,4 +7,10 @@
 	<string name="strength_medium">Medium</string>
 	<string name="strength_strong">Strong</string>
 	<string name="strength_very_strong">Very strong</string>
+	<string name="text_size">Text size</string>
+	<string name="bar_height">Bar height</string>
+	<string name="bar_gap">Bar gap</string>
+	<string name="text_gap">Text gap</string>
+	<string name="state">State</string>
+	<string name="view_width">View width</string>
 </resources>

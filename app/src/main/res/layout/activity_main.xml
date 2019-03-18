@@ -15,13 +15,233 @@
 		android:background="#fff"
 		android:padding="16dp"/>
 
-
-	<Button
-		android:id="@+id/switchButton"
+	<ScrollView
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_gravity="bottom"
-		android:padding="24dp"
-		android:text="@string/switch_button"
-		android:textSize="17sp"/>
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/view_width"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/widthSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:max="100"
+					android:paddingBottom="16dp"
+					android:paddingTop="16dp"
+					android:progress="100"/>
+
+				<TextView
+					android:id="@+id/widthTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="100"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/text_size"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/textSizeSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:max="48"
+					android:paddingBottom="16dp"
+					android:paddingTop="16dp"
+					android:progress="12"/>
+
+				<TextView
+					android:id="@+id/textSizeTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="12"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/bar_height"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/barHeightSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:max="48"
+					android:paddingBottom="16dp"
+					android:paddingTop="16dp"
+					android:progress="4"/>
+
+				<TextView
+					android:id="@+id/barHeightTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="4"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/bar_gap"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/barGapSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:max="48"
+					android:paddingBottom="16dp"
+					android:paddingTop="16dp"
+					android:progress="8"/>
+
+				<TextView
+					android:id="@+id/barGapTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="8"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/text_gap"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/textBarGapSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:max="48"
+					android:paddingBottom="16dp"
+					android:paddingTop="16dp"
+					android:progress="8"/>
+
+				<TextView
+					android:id="@+id/textBarGapTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="8"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#1000"
+				android:gravity="center_vertical"
+				android:paddingEnd="16dp"
+				android:paddingStart="16dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="32dp"
+					android:text="@string/state"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+
+				<SeekBar
+					android:id="@+id/stateSeekBar"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingBottom="24dp"
+					android:paddingTop="24dp"
+					tools:max="4"
+					tools:progress="1"/>
+
+				<TextView
+					android:id="@+id/stateTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:minWidth="32dp"
+					android:text="1"
+					android:textColor="?android:textColorPrimary"
+					android:textSize="15sp"/>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
 </LinearLayout>
